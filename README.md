@@ -11,8 +11,8 @@
 
 
 ### Definitons :
-* <a>WordDefinition</a>
-* <a>User</a>
+* <a href="#worddefinitionwordstr--meaningstr--examplestr--authoruser--timestampstr">WordDefinition</a>
+* <a href="#usernamestr--hrefstr">User</a>
 ### Functions :
 * <a>Query.definitions</a>
 * <a>GetUserDefinitons</a>
@@ -28,10 +28,10 @@ from UrbanDictAPI.main import Query ,WordofTheDay , CategoryDefinitions , GetUse
 
     ### Attributes 
     * `word`
-    * `meaning`
-    * `example`
-    * `author` - <a>User</a> object
-    * `timestamp` - Time of publishing of definition
+    * `meaning` - meaning of word.
+    * `example` - example for the usage of the word.
+    * `author` - <a href="#usernamestr--hrefstr">User</a> object
+    * `timestamp` - Time of publishing of definition.
     * `data` - Includes further information. (eg: Likes and Dislikes)
 ***
 * ### `User(name:str , href:str)`
@@ -47,14 +47,14 @@ from UrbanDictAPI.main import Query ,WordofTheDay , CategoryDefinitions , GetUse
     ### 
     Query words by `q`.
     ### 
-    Returns a list of <a>WordDefinition</a> objects if `single=False`.
-    If `single=True` then a single <a>WordDefinition</a> object will be returned(Top Result).
+    Returns a list of <a href="#worddefinitionwordstr--meaningstr--examplestr--authoruser--timestampstr">WordDefinition</a> objects if `single=False`.
+    If `single=True` then a single <a href="#worddefinitionwordstr--meaningstr--examplestr--authoruser--timestampstr">WordDefinition</a> object will be returned(Top Result).
     ###
     Big O of single=True < Big O of single=False
 ***
 * ### `GetUserDefinitons(u:User)`
     ###
-    Get a list of <a>WordDefinition</a> objects of all the definitions published by a user in their lifetime.
+    Get a list of <a href="#worddefinitionwordstr--meaningstr--examplestr--authoruser--timestampstr">WordDefinition</a> objects of all the definitions published by a user in their lifetime.
 ***
 * ### `CategoryDefinitions(cat:str)`
     ###
@@ -73,7 +73,7 @@ from UrbanDictAPI.main import Query ,WordofTheDay , CategoryDefinitions , GetUse
     </ul>
     </details>
 
-    Returns a list of most popular <a>WordDefinition</a> objects from that category.
+    Returns a list of most popular <a href="#worddefinitionwordstr--meaningstr--examplestr--authoruser--timestampstr">WordDefinition</a> objects from that category.
 
 ***
 * ### `WordofTheDay()`
