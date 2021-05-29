@@ -5,11 +5,11 @@
 
 ***
 
-# Documentation 
-
-`pip install urbandictapi`
-
+## `pip install urbandictapi`
 ***
+
+
+
 ### Definitons :
 * <a>WordDefinition</a>
 * <a>User</a>
@@ -19,9 +19,9 @@
 * <a>CategoryDefinitons</a>
 * <a>WordofTheDay</a>
 
-## Import
+# Import
 ```py
-from UrbanDictAPI.main import Query ,WordofTheDay , CategoryDefenitions , GetUserDefinitions
+from UrbanDictAPI.main import Query ,WordofTheDay , CategoryDefinitions , GetUserDefinitions
 ```
 # Definitions
 * `WordDefinition(word:str , meaning:str , example:str , author:User , timestamp:str)`
@@ -39,6 +39,7 @@ from UrbanDictAPI.main import Query ,WordofTheDay , CategoryDefenitions , GetUse
     * `name` - Name of User.
     * `href` - href to User profile.
     * `data` - Includes further information about User.
+
 
 # Functions
 
