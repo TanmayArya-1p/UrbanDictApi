@@ -60,7 +60,8 @@ def GetUserDefinitions(u:User):
 		return defs
 
 
-def CategoryMeanings(cat:str , limit=10):
+def CategoryDefinitons(cat:str , limit=10):
+	cat = cat.lower()
 	cat_dict = {
 	"college" : "https://www.urbandictionary.com/category.php?category=college",
 	"drugs" : "https://www.urbandictionary.com/category.php?category=drugs",
