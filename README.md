@@ -1,3 +1,4 @@
+
 ![PyPI - Wheel](https://img.shields.io/pypi/wheel/UrbanDictApi?style=for-the-badge)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/UrbanDictApi?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/TanmayArya-1p/UrbanDictApi?style=for-the-badge)
