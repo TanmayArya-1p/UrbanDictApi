@@ -3,10 +3,10 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/TanmayArya-1p/UrbanDictApi?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/tanmayarya-1p/urbandictapi?style=for-the-badge)
 
-***
+
 
 ## `pip install urbandictapi`
-***
+
 
 
 
