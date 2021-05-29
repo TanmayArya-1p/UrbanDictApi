@@ -10,13 +10,13 @@
 
 
 
-### Definitons :
+### Definitions :
 * <a href="#worddefinitionwordstr--meaningstr--examplestr--authoruser--timestampstr">WordDefinition</a>
 * <a href="#usernamestr--hrefstr">User</a>
 ### Functions :
-* <a href="#querydefinitonsqstr--singlefalse">Query.definitions</a>
-* <a href="#getuserdefinitonsuuser">GetUserDefinitons</a>
-* <a href="#getuserdefinitonsuuser">CategoryDefinitons</a>
+* <a href="#querydefinitionsqstr--singlefalse">Query.definitions</a>
+* <a href="#getuserdefinitionsuuser">GetUserDefinitions</a>
+* <a href="#getuserdefinitionsuuser">CategoryDefinitions</a>
 * <a href="#wordoftheday">WordofTheDay</a>
 
 # Import
@@ -43,7 +43,7 @@ from UrbanDictAPI.main import Query ,WordofTheDay , CategoryDefinitions , GetUse
 
 # Functions
 
-* ### `Query.definitons(q:str , single=False)`
+* ### `Query.definitions(q:str , single=False)`
     ### 
     Query words by `q`.
     ### 
@@ -52,7 +52,7 @@ from UrbanDictAPI.main import Query ,WordofTheDay , CategoryDefinitions , GetUse
     ###
     Big O of single=True < Big O of single=False
 ***
-* ### `GetUserDefinitons(u:User)`
+* ### `GetUserDefinitions(u:User)`
     ###
     Get a list of <a href="#worddefinitionwordstr--meaningstr--examplestr--authoruser--timestampstr">WordDefinition</a> objects of all the definitions published by a user in their lifetime.
 ***
