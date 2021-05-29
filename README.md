@@ -24,7 +24,7 @@
 from UrbanDictAPI.main import Query ,WordofTheDay , CategoryDefinitions , GetUserDefinitions
 ```
 # Definitions
-* `WordDefinition(word:str , meaning:str , example:str , author:User , timestamp:str)`
+* ###  `WordDefinition(word:str , meaning:str , example:str , author:User , timestamp:str)`
 
     ### Attributes 
     * `word`
@@ -34,7 +34,7 @@ from UrbanDictAPI.main import Query ,WordofTheDay , CategoryDefinitions , GetUse
     * `timestamp` - Time of publishing of definition
     * `data` - Includes further information. (eg: Likes and Dislikes)
 ***
-* `User(name:str , href:str)`
+* ### `User(name:str , href:str)`
     ### Attributes
     * `name` - Name of User.
     * `href` - href to User profile.
@@ -43,7 +43,7 @@ from UrbanDictAPI.main import Query ,WordofTheDay , CategoryDefinitions , GetUse
 
 # Functions
 
-* `Query.definitons(q:str , single=False)`
+* ### `Query.definitons(q:str , single=False)`
     ### 
     Query words by `q`.
     ### 
@@ -52,11 +52,11 @@ from UrbanDictAPI.main import Query ,WordofTheDay , CategoryDefinitions , GetUse
     ###
     Big O of single=True < Big O of single=False
 ***
-* `GetUserDefinitons(u:User)`
+* ### `GetUserDefinitons(u:User)`
     ###
     Get a list of <a>WordDefinition</a> objects of all the definitions published by a user in their lifetime.
 ***
-* `CategoryDefinitions(cat:str)`
+* ### `CategoryDefinitions(cat:str)`
     ###
 
     <details>
@@ -76,7 +76,7 @@ from UrbanDictAPI.main import Query ,WordofTheDay , CategoryDefinitions , GetUse
     Returns a list of most popular <a>WordDefinition</a> objects from that category.
 
 ***
-* `WordofTheDay()`
+* ### `WordofTheDay()`
     ###
     Returns a dict of words of the days.
     <details>
