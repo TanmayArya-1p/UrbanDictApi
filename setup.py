@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 import os
+import markdown
 
 
 
-VERSION = '0.1'
+VERSION = '0.3'
 DESCRIPTION = 'Unofficial API for the popular website-Urban Dictionary.'
-with open("README.md" , "r") as r:
-    LONG = r.read()
-
+LONG = open("README.md" , encoding="utf-8").read()
+print(LONG)
 # Setting up
 setup(
     name="UrbanDictAPI",
